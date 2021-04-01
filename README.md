@@ -17,7 +17,6 @@
 
 ## 功能
 
-
 1. 语音合成
    - 支持语音合成，包含腾讯、百度和讯飞
    - 支持查看音频信息、保存到本地
@@ -51,7 +50,8 @@
   <a  href="https://www.zimeitizizhu.com"><img src="https://zimeitizizhu.com/public/images/1.png" style="width:100%;" alt="NPM version" />
   </a>
 </p>
-## 安装
+
+## 安装与启动
 
 - 由于国内的某些限制，需要添加或修改.yarnrc或者.npmr文件
 ```bash
@@ -69,8 +69,6 @@
 ```
 - 软件使用到原生的node模块，需要执行 [npm run rebuild](https://github.com/amistaa/random-anime/blob/master/LICENSE)
   
-
-
 - 启动
 
 ```bash
