@@ -4,8 +4,9 @@
   "private": true,
   "description": "自媒体自助桌面版本",
   "scripts": {
-    "dev": "vue-cli-service electron:serve",
+    "serve": "vue-cli-service electron:serve",
     "build": "vue-cli-service electron:build",
+    "rebuild": "./node_modules/.bin/electron-rebuild.cmd",
     "web:build": "vue-cli-service build",
     "web:serve": "vue-cli-service serve",
     "postinstall": "electron-builder install-app-deps",
