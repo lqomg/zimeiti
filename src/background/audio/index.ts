@@ -3,7 +3,7 @@ import db from '../database/index';
 import { saveAudio, getAudioInfo } from '../ffmpeg/helper';
 const date = require("silly-datetime");
 const { audioList } = db;
-ipcMain.on('save-audio', async (event, arg) => {
+ipcMain.on('save-audio', async (event: any, arg: any) => {
     const { url, type, fileName } = arg;
     saveAudio(arg, {
         error({ filePath, err }) {
@@ -14,7 +14,8 @@ ipcMain.on('save-audio', async (event, arg) => {
             }
         },
         async end({ filePath, fileName }) {
-            const { result, dbData } = await getAudioInfo(filePath);
+            const data: any = await getAudioInfo(filePath);
+            const { result, dbData } = data;
             if (result.status) {
                 audioList.insert({
                     filePath,

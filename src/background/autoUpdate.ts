@@ -42,7 +42,6 @@ function updateHandle(mainWindow: any) {
         }, mainWindow)
     });
 
-    // 更新下载进度事件
     autoUpdater.on('download-progress', function (progressObj: any) {
         mainWindow.webContents.send('downloadProgress', progressObj)
     })
@@ -51,7 +50,6 @@ function updateHandle(mainWindow: any) {
             code: UPDATE_MESSAGE_STATUS.DOWNLOAD,
             message: args
         }, mainWindow);
-
     });
     ipcMain.on('isUpdateNow', (args: any) => {
         sendUpdateMessage({

@@ -49,9 +49,10 @@
 
 4. 图片识别
 5. 权重查询
+6. 自动更新和安装
 
 <p align="center">
-  <a  href="https://www.zimeitizizhu.com"><img src="https://github.com/linqian02/zimeiti/blob/master/src/assets/images/4.png" width="500" alt="权重查询" />
+  <a  href="https://www.zimeitizizhu.com"><img src="https://github.com/linqian02/zimeiti/blob/master/src/assets/images/8.png" width="500" alt="自动更新、安装" />
   </a>
 </p>
 

@@ -4,7 +4,7 @@ import formatSeconds from '../utils/formatSeconds';
 const date = require("silly-datetime");
 
 
-export default function (videoUrl, event) {
+export default function (videoUrl: string) {
     let result = { status: false, msg: '获取失败', data: {} };
     let da = {};
     return new Promise((resolve, reject) => {
