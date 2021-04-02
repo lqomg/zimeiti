@@ -53,15 +53,6 @@
 
 ## 安装与启动
 
-- 由于国内的某些限制，需要添加或修改.yarnrc或者.npmr文件
-```bash
-   registry "http://registry.npm.taobao.org/"
-   electron_mirror "https://npm.taobao.org/mirrors/electron/"
-   sass_binary_site "http://cdn.npm.taobao.org/dist/node-sass"
-   sharp_binary_host "https://npm.taobao.org/mirrors/sharp"
-   sharp_libvips_binary_host "https://npm.taobao.org/mirrors/sharp-libvips"
- 
-```
 - 执行安装命令
   
 ```bash
@@ -83,6 +74,7 @@
 ###  近期任务安排:
 - [x] 支持头条号的权重查询
 - [x] 支持集成Ffmpeg命令终端
+- [x] 支持自动更新、安装
 - [ ] 兼容Mac和Linux
 - [ ] 学习python，更新自己的短视频解析逻辑
 - [ ] 支持绕过短视频平台审核机制的编辑视频、音频
