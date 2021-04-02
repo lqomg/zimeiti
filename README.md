@@ -62,7 +62,7 @@
 ```bash
    $ yarn install --force or npm install
 ```
-- 软件使用到原生的node模块，需要执行 [npm run rebuild](https://github.com/amistaa/random-anime/blob/master/LICENSE)
+- 软件使用到原生的node模块，需要执行 [npm run rebuild](https://www.electronjs.org/docs/tutorial/using-native-node-modules)
   
 - 启动
 
