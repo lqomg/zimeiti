@@ -1,7 +1,8 @@
-<p align="center">
   <h1>
     自媒体自助
   </h1>
+<p align="center">
+  <img src="https://github.com/linqian02/zimeiti/blob/master/src/assets/images/7.png" width="500" alt="自媒体自助" />
 </p>
 <p align="center">
   <a href="https://www.zimeitizizhu.com"><img src="https://img.shields.io/hexpm/dt/plug?label=zimeitizizhu.com" alt="个人站点" />
@@ -10,7 +11,7 @@
    </a>
   </div>
 </p>
-<h3 align="center"><strong>基于Electron + Vue3 + Element-plus + Fluent-ffmpeg 开发的 <s>跨平台</s> window桌面应用。支持视频处理、语言合成、短视频水印去除、权重查询等</strong></h3>
+<h3 align="center"><strong>基于Electron + Vue3 + Element-plus + Fluent-ffmpeg 开发的 <s>跨平台</s> window桌面应用。支持视频处理、语言合成、短视频水印去除、权重查询、登录流程、软件自动更新安装等</strong></h3>
 
 
 ## [点击体验](https://www.zimeitizizhu.com)
