@@ -1,7 +1,7 @@
 <p align="center">
-  <a href="https://www.zimeitizizhu.com">
-    <img src="https://zimeitizizhu.com/public/images/icon.png" alt="zimeitizizhu.com" style="width:100px;">
-  </a>
+  <h1>
+    自媒体自助
+  </h1>
 </p>
 <p align="center">
   <a href="https://www.zimeitizizhu.com"><img src="https://img.shields.io/hexpm/dt/plug?label=zimeitizizhu.com" alt="个人站点" />
@@ -10,19 +10,21 @@
    </a>
   </div>
 </p>
-<h3 align="center"><strong>基于Electron + Vue3 + Element-plus + Fluent-ffmpeg 开发的 <s>跨平台</s> window桌面应用。</strong></h3>
+<h3 align="center"><strong>基于Electron + Vue3 + Element-plus + Fluent-ffmpeg 开发的 <s>跨平台</s> window桌面应用。支持视频处理、语言合成、短视频水印去除、权重查询等</strong></h3>
 
 
-[体验地址](https://www.zimeitizizhu.com)
+## [点击体验](https://www.zimeitizizhu.com)
 
-## 功能
+- qq交流群：576301295
+
+## 功能概要
 
 1. 语音合成
    - 支持语音合成，包含腾讯、百度和讯飞
    - 支持查看音频信息、保存到本地
 
 <p align="center">
-  <a  href="https://www.zimeitizizhu.com"><img src="https://zimeitizizhu.com/public/images/4.png" style="width:400px" alt="NPM version" />
+  <a  href="https://www.zimeitizizhu.com"><img src="https://github.com/linqian02/zimeiti/blob/master/src/assets/images/1.png" width="500" alt="语言水印去除" />
   </a>
 </p>
 
@@ -33,21 +35,22 @@
    - 支持显示下载进度、保存历史到本地[nedb](https://www.npmjs.com/package/nedb)
 
 <p align="center">
-  <a  href="https://www.zimeitizizhu.com"><img src="https://zimeitizizhu.com/public/images/2.png" style="width:400px;" alt="NPM version" />
+  <a  href="https://www.zimeitizizhu.com"><img src="https://github.com/linqian02/zimeiti/blob/master/src/assets/images/2.png" width="500" alt="水印去除" />
   </a>
 </p>
 
 3. 集成Ffmpeg终端
+4. 
 <p align="center">
-  <a  href="https://www.zimeitizizhu.com"><img src="https://zimeitizizhu.com/public/images/6.png" style="width:400px;" alt="NPM version" />
+  <a  href="https://www.zimeitizizhu.com"><img src="https://github.com/linqian02/zimeiti/blob/master/src/assets/images/3.png" width="500" alt="集成Ffmpeg终端" />
   </a>
 </p>
 
 4. 图片识别
 5. 权重查询
-6. 
+
 <p align="center">
-  <a  href="https://www.zimeitizizhu.com"><img src="https://zimeitizizhu.com/public/images/1.png" style="width:100%;" alt="NPM version" />
+  <a  href="https://www.zimeitizizhu.com"><img src="https://github.com/linqian02/zimeiti/blob/master/src/assets/images/4.png" width="500" alt="权重查询" />
   </a>
 </p>
 
@@ -88,8 +91,8 @@
 ### 赞赏和配套小程序
 
 <p align="center">
-  <a  href="https://www.zimeitizizhu.com"><img src="https://zimeitizizhu.com/public/images/qrcode.png" style="width:410ox;" alt="NPM version" />
+  <a  href="https://www.zimeitizizhu.com"><img src="https://github.com/linqian02/zimeiti/blob/master/src/assets/images/5.png" " alt="自媒体自助小程序" />
 </a>
- <a  href="https://www.zimeitizizhu.com"><img src="https://zimeitizizhu.com/public/images/zan.png" style="width:200px;" alt="NPM version" />
+ <a  href="https://www.zimeitizizhu.com"><img src="https://github.com/linqian02/zimeiti/blob/master/src/assets/images/6.png"  alt="赞赏码" />
   </a>
 </p>
